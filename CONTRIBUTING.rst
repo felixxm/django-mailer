@@ -12,14 +12,14 @@ Local development setup
 
 To set up your environment to be able to work on django-mailer, do the following:
 
-1. Fork the django-mailer repo on GitHub.
+1. Fork the `django-mailer` repo on GitHub.
 
 2. Clone your fork locally::
 
      $ git clone git@github.com:your_name_here/django-mailer.git
      $ cd django-mailer/
 
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper::
+3. Install your local copy into a `virtualenv`. Assuming you have `virtualenvwrapper`::
 
     $ mkvirtualenv django-mailer
     $ python setup.py develop
@@ -32,7 +32,7 @@ To set up your environment to be able to work on django-mailer, do the following
 
     $ git checkout -b name-of-your-bugfix-or-feature
 
-6. Now you can make your changes locally. Run the tests in the virtualenv using::
+6. Now you can make your changes locally. Run the tests in the `virtualenv` using::
 
     $ ./runtests.py
 
@@ -47,7 +47,7 @@ To set up your environment to be able to work on django-mailer, do the following
 Coding style
 ------------
 
-When writing code to be included in django-mailer keep our style in mind:
+When writing code to be included in `django-mailer` keep our style in mind:
 
 * Follow `PEP8 <http://www.python.org/dev/peps/pep-0008/>`_ . There are some
   cases where we do not follow PEP8 but it is an excellent starting point.
@@ -76,7 +76,7 @@ the commit before it. You can squash multiple ones at the same time.
 When you save and exit the text editor where you were squashing commits, git
 will squash them down and then present you with another editor with commit
 messages. Choose the one to apply to the squashed commit (or write a new
-one entirely.) Save and exit will complete the rebase. Use a forced push to
+one entirely). Save and exit will complete the rebase. Use a forced push to
 your fork::
 
     git push -f
